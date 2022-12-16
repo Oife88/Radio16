@@ -200,7 +200,7 @@ public class RadioTest {
     }
 
     @Test
-    public void test() {
+    public void limitMax() {
         Radio radio = new Radio(20);
 
         radio.setCurrentStationNumber(15);
@@ -212,7 +212,7 @@ public class RadioTest {
     }
 
     @Test
-    public void test2() {
+    public void LimitMaxStation() {
         Radio radio = new Radio(20);
 
         radio.setCurrentStationNumber(25);
